@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="659d8fb8-3d5a-4462-aaed-7b2a821ee295" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/SGHSS.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/database.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/consulta_model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/doctor_model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/internacao_model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/leito_model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/patient_model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/prescricao_model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/prontuario_model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/telemedicina_model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/user_model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/routers/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/routers/auth_router.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/routers/consulta_router.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/routers/doctor_router.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/routers/leito_router.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/routers/patient_router.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/routers/prescricao_router.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/routers/prontuario_router.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/schemas/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/schemas/consulta_schema.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/schemas/doctor_schema.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/schemas/leito_schema.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/schemas/patient_schema.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/schemas/prescricao_schema.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/schemas/prontuario_schema.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/schemas/user_schema.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/utils/security.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="36TiW6FPNVbPhhg4yXCNJtvX3gm" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Python.Uvicorn SGHSS 8001.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Projetos/SGHSS&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  }
+}</component>
+  <component name="RunManager">
+    <configuration name="Uvicorn SGHSS 8001" type="PythonConfigurationType" factoryName="Python">
+      <module name="SGHSS" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="SDK_NAME" value="Python 3.13 virtualenv at D:\Projetos\SGHSS\.venv" />
+      <option name="WORKING_DIRECTORY" value="D:\Projetos\SGHSS" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="uvicorn" />
+      <option name="PARAMETERS" value="main:app --reload --port 8001" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="true" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-4f4e415b4190-aa17d162503b-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-243.26053.29" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="659d8fb8-3d5a-4462-aaed-7b2a821ee295" name="Changes" comment="" />
+      <created>1765036991444</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1765036991444</updated>
+    </task>
+    <servers />
+  </component>
+</project>

@@ -1,25 +1,26 @@
-SGHSS API - Sistema de Gestão Hospitalar e Saúde
-Uma API RESTful completa e modular desenvolvida com FastAPI para o gerenciamento de processos hospitalares e de saúde. O sistema abrange a gestão de pacientes, medicos, agendamento de consultas, leitos e prontuários eletrônicos, contando com autenticação segura via JSON Web Tokens (JWT).
+# SGHSS API - Sistema de Gestão Hospitalar e Saúde
 
-🛠️ Tecnologias Utilizadas
-Linguagem: Python 3.10+
+Uma API RESTful completa e modular desenvolvida com **FastAPI** para o gerenciamento de processos hospitalares e de saúde. O sistema abrange a gestão de pacientes, medicos, agendamento de consultas, leitos e prontuários eletrônicos, contando com autenticação segura via JSON Web Tokens (JWT).
 
-Framework: FastAPI
+---
 
-ORM: SQLAlchemy
+## 🛠️ Tecnologias Utilizadas
 
-Validação de Dados: Pydantic V2
+* **Linguagem:** Python 3.10+
+* **Framework:** FastAPI
+* **ORM:** SQLAlchemy
+* **Validação de Dados:** Pydantic V2
+* **Banco de Dados:** PostgreSQL
+* **Autenticação:** JWT (JSON Web Tokens) & Passlib (Bcrypt)
+* **Gerenciamento de Dependências:** PIP / venv
 
-Banco de Dados: PostgreSQL
+---
 
-Autenticação: JWT (JSON Web Tokens) & Passlib (Bcrypt)
+## 📐 Arquitetura do Projeto
 
-Gerenciamento de Dependências: PIP / venv
-
-📐 Arquitetura do Projeto
 O projeto segue uma estrutura modular focada em separação de responsabilidades (Clean Code):
 
-Plaintext
+```text
 sghss_api/
 │
 ├── app/
@@ -55,8 +56,8 @@ Passo a Passo
 Clonar o repositório:
 
 Bash
-git clone https://github.com/seu-usuario/sghss-api.git
-cd sghss-api
+git clone [https://github.com/piettrolino/sghssapi.git](https://github.com/piettrolino/sghssapi.git)
+cd sghssapi
 Criar e ativar o ambiente virtual:
 
 Bash
@@ -83,14 +84,14 @@ Executar a aplicação:
 
 Bash
 uvicorn app.main:app --reload
-A API estará acessível em [http://127.0.2.1:8000](http://127.0.2.1:8000).
+A API estará acessível em http://127.0.0.1:8000.
 
 📑 Documentação Interativa (Swagger / Redoc)
 O FastAPI gera automaticamente a documentação das rotas. Com a aplicação rodando, você pode acessar:
 
-Swagger UI: [http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs)
+Swagger UI: http://127.0.0.1:8000/docs
 
-ReDoc: [http://127.0.0.1:8000/redoc](http://127.0.0.1:8000/redoc)
+ReDoc: http://127.0.0.1:8000/redoc
 
 🔒 Endpoints e Funcionalidades Principais
 Médicos (/doctors): Cadastro, listagem e busca por CRM/Especialidade.
